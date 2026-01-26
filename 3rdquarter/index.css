@@ -1,0 +1,127 @@
+/* ===== RESET ===== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* ===== GLOBAL FONT ===== */
+body, footer p, header, nav, article, section {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* ===== BODY ===== */
+body {
+  background: #fff7fb;
+}
+
+/* ===== HEADER ===== */
+header {
+  background: linear-gradient(135deg, #8b5cf6, #ec4899);
+  padding: 30px;
+  text-align: center;
+  font-size: 32px;
+  color: white;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+}
+
+/* ===== MAIN SECTION ===== */
+section {
+  margin: 25px;
+  display: flex;
+  overflow: hidden;
+  border-radius: 18px;
+  background: linear-gradient(180deg, #fdf4ff, #fae8ff);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.08);
+}
+
+/* ===== NAV ===== */
+nav {
+  width: 20%;
+  background: linear-gradient(180deg, #f3d0ff, #e9b3ff);
+  padding: 15px 0;
+  border-radius: 18px 0 0 18px;
+}
+
+/* ===== NAV LIST ===== */
+nav ul {
+  list-style: none;
+  text-align: center;
+}
+
+/* ===== NAV LINKS ===== */
+nav li a {
+  display: block;
+  margin: 8px 12px;
+  padding: 14px 10px;
+  text-decoration: none;
+  font-weight: 600;
+  color: #4a044e;
+  border-radius: 10px;
+  transition: all 0.3s ease;
+}
+
+/* ===== NAV HOVER ===== */
+nav li a:hover:not(.active) {
+  background: linear-gradient(135deg, #d946ef, #ec4899);
+  color: white;
+}
+
+/* ===== ACTIVE LINK ===== */
+nav li a.active {
+  background: linear-gradient(135deg, #a855f7, #ec4899);
+  color: white;
+}
+
+/* ===== ARTICLE ===== */
+article {
+  width: 80%;
+  padding: 35px;
+  background: linear-gradient(180deg, #fde7f3, #f5d0fe);
+  border-radius: 0 18px 18px 0;
+}
+
+/* ===== ARTICLE TEXT ===== */
+article h1 {
+  margin-bottom: 15px;
+  font-size: 28px;
+}
+
+article p {
+  margin-bottom: 14px;
+  line-height: 1.7;
+}
+
+/* ===== FOOTER ===== */
+footer {
+  background: linear-gradient(135deg, #8b5cf6, #ec4899);
+  padding: 12px;
+  text-align: center;
+  color: white;
+  font-size: 14px;
+  box-shadow: 0 -4px 15px rgba(0, 0, 0, 0.12);
+}
+
+/* ===== RESPONSIVE ===== */
+@media (max-width: 900px) {
+  section {
+    flex-direction: column;
+  }
+
+  nav, article {
+    width: 100%;
+    border-radius: 0;
+  }
+
+  nav {
+    border-radius: 18px 18px 0 0;
+  }
+
+  article {
+    border-radius: 0 0 18px 18px;
+  }
+
+  nav li a {
+    margin: 6px;
+  }
+}
