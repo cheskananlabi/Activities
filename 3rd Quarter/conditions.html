@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conditional Statement</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+<header>
+        <h3>My Activities for the 2nd Semester - 3rd Quarter</h3>
+</header>
+<section>
+  <nav>
+    <ul>
+      <li><a href="3rdquarter.html"> 3rd Quarter Activities </a></li>
+      <li><a href="myfirstjavascript.html"> My first JavaScript </a></li>
+      <li><a href="syntax.html">Syntax</a></li>
+      <li><a href="variable.html">Variables</a></li>
+      <li><a href="operation.html">Operations</a></li>
+      <li><a class="active">Conditions</a></li>
+      <li><a href="return.html">Return</a></li>
+      <li><a href="loops.html">Loops</a></li>
+      <li><a href="calculator.html">Calculator</a></li>
+      <li><a href="activity.html">Activity</a></li>
+      <li><a href="string.html">String</a></li>
+      <li><a href="mgg.html">Mobile Geng Geng</a></li>
+      <li><a href="object1.html">Objects (From Sir)</a></li>
+      <li><a href="object.html">Objects</a></li>
+    </ul>
+  </nav>
+  
+<article>
+    <h1> Conditional Statement in JavaScript </h1>
+    <script>
+        let x=10;
+        console.log (x == 10) 
+        if (x == 10) {
+            console.log("x is equal to 10");
+        } 
+        console.log("This is a nested if statement");
+        console.log("-------------------------");
+        let strand = "ICT"
+        let section = "Competence"
+        if (strand == "ICT" && section == "Competence") {
+            console.log("You are in ICT - Competence Section");
+        }
+        let track = "TVL"
+        let grade = "11"
+        if (track == "TVL" || grade == "11") {
+            console.log("You are in grade 11 - TVL Track");
+        }
+        console.log("-------------------------");
+        let healthStatus = -5
+        if (healthStatus > 0) {
+            console.log("You are alive");
+        } else {
+            console.log("You are dead");
+        }
+        console.log("-------------------------");
+        console.log("My own sample of if Else statement");
+        let batteryPercentage = 5;
+        if (batteryPercentage > 50) {
+            console.log("You are good to go");
+        } else if (batteryPercentage > 20) {
+            console.log("You need to charge your device soon");
+        }
+        else if (batteryPercentage > 90) {
+            console.log("You are in excellent condition");
+        } else if (batteryPercentage > 10) {
+            console.log("You need to charge your device now");
+        }
+        else {
+            console.log("You have no battery. Please charge your device. ");
+        }
+        console.log("end of program");
+    </script>
+</article>
+    
+<footer>
+    <p>&copy; 2026 — Cheska Nanlabi</p>
+</footer>
+
+</body>
+</html>

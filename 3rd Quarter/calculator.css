@@ -1,0 +1,21 @@
+        input, select, button {
+            padding: 10px;
+            margin: 8px;
+            border-radius: 8px;
+            border: none;
+            font-size: 1rem;
+        }
+
+        button {
+            background: white;
+            color: #5b1fd9;
+            font-weight: bold;
+            cursor: pointer;
+        }
+
+        #insert {
+            margin-top: 20px;
+            font-size: 1.4rem;
+            font-weight: bold;
+        }
+

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Return Value</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+<header>
+        <h3>My Activities for the 2nd Semester - 3rd Quarter</h3>
+</header>
+<section>
+  <nav>
+    <ul>
+      <li><a href="3rdquarter.html"> 3rd Quarter Activities </a></li>
+      <li><a href="myfirstjavascript.html"> My first JavaScript </a></li>
+      <li><a href="syntax.html">Syntax</a></li>
+      <li><a href="variable.html">Variables</a></li>
+      <li><a href="operation.html">Operations</a></li>
+      <li><a href="conditions.html">Conditions</a></li>
+      <li><a class="active">Return</a></li>
+      <li><a href="loops.html">Loops</a></li>
+      <li><a href="calculator.html">Calculator</a></li>
+      <li><a href="activity.html">Activity</a></li>
+      <li><a href="string.html">String</a></li>
+      <li><a href="mgg.html">Mobile Geng Geng</a></li>
+      <li><a href="object1.html">Objects (From Sir)</a></li>
+      <li><a href="object.html">Objects</a></li>
+    </ul>
+  </nav>
+  
+<article>
+    <p id="demo"></p>
+
+    <script>
+        function f(x) {
+            return x;
+        }
+        alert(f(5));
+
+        function g(x) {
+            return x + 1;
+        }
+        console.log(g(3));
+
+        function areaSquare(side) {
+            return side * side;
+        }
+
+        let demo = document.getElementById("demo");
+        demo.textContent = "Area of square with side 4 is: " + areaSquare(4);
+
+        function BMI (weight, height) {
+            return weight / (height * height);
+        }
+        console.log("BMI is: " + BMI(70, 1.75));
+    </script>
+</article>
+    
+<footer>
+    <p>&copy; 2026 — Cheska Nanlabi</p>
+</footer>
+
+</body>
+</html>
