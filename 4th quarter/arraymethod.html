@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Array Methods</title>
+</head>
+<body>
+    <script>
+        const colors = ["Purple", "Pink", "Green"];
+        let result = colors.indexOf("Pink");
+        console.log(result);
+
+        const numbers = [1, 2, 3];
+        let check = numbers.includes(2);
+        console.log(check);
+
+        // const num = [4, 8, 12];
+        // let find = num.find(myFunction);
+
+        // function myFunction(value, index, array) {
+        //     return value > 5;
+        // }
+        // console.log(find);
+
+        const letters = ["a", "b", "c", "d", "e", "f", "g"];
+        let look = letters.find(myFunction);
+
+        function myFunction(value, index, array) {
+            return value == "h";
+        }
+        console.log(look);
+
+
+    </script>
+</body>
+</html>

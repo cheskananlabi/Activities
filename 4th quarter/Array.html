@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Playlist</title>
+</head>
+<body>
+    <p id="apps"></p>
+
+    <p id="app2"></p>
+
+    <p id="name"></p>
+
+    <p id="fruits"></p>
+
+    <p id="surname1"></p>
+    <p id="surname2"></p>
+    <p id="ppg"></p>
+
+    <p id="colors"></p>
+
+    <p id="demo1"></p>
+    <p id="demo2"></p>
+    <p id="demo3"></p>
+    <p id="demo4"></p>
+    <p id="demo5"></p>
+    <p id="demo6"></p>
+    <p id="demo7"></p>
+    <p id="demo8"></p>
+
+    <script>
+        const cars = [];
+            cars [0] = "Tiktok",
+            cars [1] = "Instagram", 
+            cars [2] = "Facebook"
+            document.getElementById("apps").innerHTML = cars;
+
+        // Bracket Indexing Example
+        const apps = ["Tiktok", "Instagram", "Facebook"];
+        document.getElementById("app2").innerHTML = apps[0];  
+
+        // Array as Object Example
+        const name = {firstName: "Cheska", lastName: "Nanlabi"};
+        document.getElementById("name").innerHTML = name.firstName;
+
+        // Length Property Example
+        const fruits = ["Banana", "Orange", "Apple", "Mango", "Grapes"];
+        let size = fruits.length;
+        document.getElementById("fruits").innerHTML = size;
+
+        // Concat
+        const surname1 = ["Cabias", "Nanlabi", "Camacho"];
+        const surname2 = ["Canete", "Visca", "Carlon"];
+        const ppg = surname1.concat(surname2);
+        document.getElementById("ppg").innerHTML = ppg;
+
+        // copywithin
+        const colors = ["Purple", "Pink", "Green", "Blue", "Black"];
+        colors.copyWithin(3, 1);
+        document.getElementById("colors").innerHTML = colors;
+
+        // const playlist = ["Easy on me", "All I Ask", "Two is Better Than One", "Gorgeous", "Photograph"];
+
+        // document.getElementById("demo1").innerHTML = "Original Playlist: " + playlist;
+
+        // // Add a song to the end
+        // playlist.push("Destiny");
+        // document.getElementById("demo2").innerHTML = "After adding to end: " + playlist;
+
+        // // Remove the last song
+        // playlist.pop();
+        // document.getElementById("demo3").innerHTML = "After removing from end: " + playlist;
+
+        // // Add a song to the beginning
+        // playlist.unshift("Shape of You");
+        // document.getElementById("demo4").innerHTML = "After adding to beginning: " + playlist;
+
+        // // Remove the first song
+        // playlist.shift();
+        // document.getElementById("demo5").innerHTML = "After removing from beginning: " + playlist;
+
+    </script>
+</body>
+</html>

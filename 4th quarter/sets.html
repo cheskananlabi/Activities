@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sets</title>
+</head>
+<body>
+    <h3>Sets</h3>
+    <h6> Union </h6>
+    <p id="union"></p>
+    
+    <script>
+        let names = new Set(["Grace", "Dazz", "Rho"]);
+        let moreNames = new Set(["Yvhan", "Anne", "Dazz"]);
+        let union = names.union(moreNames);
+        console.log(union);
+
+
+        let intersection = names.intersection(moreNames);
+        console.log(intersection);
+
+        let difference = names.difference(moreNames);
+        console.log(difference);
+    </script>
+</body>
+</html>

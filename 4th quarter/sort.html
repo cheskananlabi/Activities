@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sort</title>
+</head>
+<body>
+    <script>
+        // const fruits = ["Grapes", "Pineapple", "Apple", "Mango"];
+        // let sortedFruits = fruits.sort();
+        // console.log(sortedFruits);
+
+        // const fruits2 = ["Grapes", "Pineapple", "Apple", "Mango"];
+        // let reverseFruits2 = fruits2.reverse();
+        // console.log(reverseFruits2);
+
+        // const months = ["August", "January", "February", "December"];
+        // let sorted_Months = months.toSorted();
+        // console.log(sorted_Months);
+
+        // const months1 = ["January", "February", "August", "December"];
+        // let reverse_Months1 = months1.toReversed();
+        // console.log(reverse_Months1);
+
+        // const numbers = [40, 1, 5, 25];
+        // let reversed_Numbers = numbers.toReversed(function(a, b) {
+        //     return a - b;
+        // });
+        // console.log(reversed_Numbers);
+
+        // const number = [15, 25, 35, 50];
+
+        // number.sort(function() {
+        //     return 0.5 - Math.random();
+        // });
+
+        // console.log(number);
+
+        // const number = [15, 25, 35, 50];
+        // let lowest = Math.min(...number);
+        // console.log(lowest);
+
+        // const number2 = [15, 25, 35, 50];
+        // let highest = Math.max(...number2);
+        // console.log(highest);
+
+        // const Num = [15, 25, 35, 50];
+        // let len = Num.length;
+        // let min = -Infinity;
+
+        // while (len--) {
+        //     if (Num[len] < min) {
+        //         min = Num[len];
+        //     }
+        // }   
+        // console.log(min);
+
+        const Num = [15, 25, 35, 50];
+        let len = Num.length;
+        let max = -Infinity;
+
+        while (len--) {
+            if (Num[len] > max) {
+                max = Num[len];
+            }
+        }   
+        console.log(max);
+    </script>
+</body>
+</html>
